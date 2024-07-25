@@ -65,5 +65,7 @@ def write_data(out_prod_num, out_ce_ip):
 
 
 if __name__ == '__main__':
+    print("Extracting ips...")
     out_prod_num, out_ce_ip = get_ce_ip()
+    print("Writing data...")
     write_data(out_prod_num, out_ce_ip)
